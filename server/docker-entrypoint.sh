@@ -1,5 +1,5 @@
 #!/bin/bash
 
-php bin/console make:migrate
+php bin/console doctrine:migrations:migrate
 
 php-fpm
